@@ -42,6 +42,11 @@ class MainActivity : AppCompatActivity() {
     private fun checkForWin(): Boolean {
         TODO("Not yet implemented")
         var textArray : Array<CharSequence>
+        if(currentMove == "X"){
+            currentMove == "O"
+
+
+        }
 
         return checkRowForWin(textArray) || checkColForWin(textArray) || checkLeftDiagForWin(textArray) || checkRightDiagForWin(textArray)
     }
